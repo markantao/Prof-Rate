@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 body{
     margin: 0;
     padding: 0;
@@ -6,3 +8,42 @@ body{
     background-position: center;
 }
 
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #24252A;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.person{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
