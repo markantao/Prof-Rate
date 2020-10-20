@@ -47,3 +47,8 @@ h1{
     width: 100%;
     margin-bottom: 20px;
 }
+
+.login_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
