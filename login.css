@@ -3,56 +3,62 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(white_brick.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.loginbox{
-    width: 320px;
-    height: 420px;
-    background: #24252A;
-    color: #ffffff;
+    font-family: sans-serif;
+    background: #34495e;
+  }
+  .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
     top: 50%;
     left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
-    box-sizing: border-box;
-    padding: 70px 30px;
-}
-
-.person{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: -100px;
-    left: calc(50% - 50px);
-}
-
-h1{
-    margin: 0;
-    padding: 0 0 20px;
+    transform: translate(-50%,-50%);
+    background: #191919;
     text-align: center;
-    font-size: 22;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.loginbox p{
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.loginbox input{
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.login_title{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
-}
-
-.no_account{
+    box-shadow: 10px 10px;
+  }
+  .box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .box input[type = "text"],.box input[type = "password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
     text-align: center;
-}
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+    transition: 0.25s;
+  }
+  .box input[type = "text"]:focus,.box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+  }
+  .box input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 7px;
+    transition: 0.25s;
+    cursor: pointer;
+  }
+  .box input[type = "submit"]:hover{
+    background: #2ecc71;
+  }
+
+  .login_title{
+      text-align: center;
+      color: #ffffff;
+  }
