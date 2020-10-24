@@ -9,3 +9,39 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+
+.card_container{
+    width: 300px;
+    height: 430px;
+    background: #ffffff;
+    border-radius: 6px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+}
+
+.card_containerone{
+    width: 300px;
+    height: 430px;
+    background: #ffffff;
+    border-radius: 6px;
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+}
+
+.card_containertwo{
+    width: 300px;
+    height: 430px;
+    background: #ffffff;
+    border-radius: 6px;
+    position: absolute;
+    top: 60%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+}
